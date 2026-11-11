@@ -1,0 +1,14 @@
+REPz - INSTALLAZIONE GRATUITA SU IPHONE
+
+1. Estrai il file REPz_PWA_pronta.zip sul computer.
+2. Crea un repository GitHub pubblico chiamato REPz.
+3. Carica tutti i file E la cartella icons/ direttamente nella radice del repository.
+4. GitHub -> Settings -> Pages -> Deploy from a branch -> main / (root).
+5. Apri l'URL HTTPS mostrato da GitHub Pages con Safari sull'iPhone.
+6. Condividi -> Aggiungi alla schermata Home -> REPz.
+7. Prima di usarla offline, aprila almeno una volta con Internet.
+8. Da Impostazioni in REPz, esporta periodicamente backup JSON.
+
+Il database degli allenamenti resta sul dispositivo. Pubblicare il codice su GitHub non pubblica i tuoi allenamenti.
+
+NOTA: l'integrazione bidirezionale con Apple Watch non fa parte della PWA iniziale.
