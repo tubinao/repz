@@ -1,14 +1,34 @@
-REPz - INSTALLAZIONE GRATUITA SU IPHONE
+REPz 2.0 — AGGIORNAMENTO DELLA TUA APP ESISTENTE
+Indirizzo già pubblicato: https://tubinao.github.io/repz/
 
-1. Estrai il file REPz_PWA_pronta.zip sul computer.
-2. Crea un repository GitHub pubblico chiamato REPz.
-3. Carica tutti i file E la cartella icons/ direttamente nella radice del repository.
-4. GitHub -> Settings -> Pages -> Deploy from a branch -> main / (root).
-5. Apri l'URL HTTPS mostrato da GitHub Pages con Safari sull'iPhone.
-6. Condividi -> Aggiungi alla schermata Home -> REPz.
-7. Prima di usarla offline, aprila almeno una volta con Internet.
-8. Da Impostazioni in REPz, esporta periodicamente backup JSON.
+PRIMA DI FARE QUALSIASI COSA
+1. Sul tuo iPhone apri la REPz attuale dall'icona sulla Home.
+2. Apri Impostazioni > Scarica backup completo (.json).
+3. Salva il file di backup nell'app File o su iCloud Drive. Non saltare questo punto.
+4. Non eliminare l'icona della vecchia PWA e non cancellare i dati di Safari.
 
-Il database degli allenamenti resta sul dispositivo. Pubblicare il codice su GitHub non pubblica i tuoi allenamenti.
+SUL COMPUTER
+5. Estrai REPz_2.0_PWA.zip.
+6. Apri il tuo repository: https://github.com/tubinao/repz
+7. Carica tutti i file della cartella estratta nella RADICE del repository:
+   index.html, app.js, data.js, styles.css, catalog.js, anatomy.js,
+   muscle-detail.js, manifest.webmanifest, sw.js, cartella icons/ e cartella images/.
+   Carica anche gli altri file presenti. Mantieni i percorsi e sovrascrivi quelli esistenti.
+8. Salva con Commit changes.
+9. GitHub Pages pubblicherà l'aggiornamento sullo STESSO URL.
 
-NOTA: l'integrazione bidirezionale con Apple Watch non fa parte della PWA iniziale.
+SULL'IPHONE
+10. Apri https://tubinao.github.io/repz/ con Safari (con Internet attivo).
+11. Attendi che si aggiorni e poi chiudi e riapri REPz dall'icona sulla Home.
+    Se compare ancora v1.0, chiudi completamente l'app e riaprila dopo un nuovo caricamento del sito in Safari.
+12. Apri Impostazioni e verifica l'indicazione v2.0.
+13. Controlla che schede e storico siano ancora presenti.
+14. Prova KG/REPS: la pagina non dovrebbe ingrandirsi quando tocchi il campo.
+15. Avvia una seduta di TEST, registra dei dati e poi prova Abbandona senza salvare.
+16. Prova il Check-up, i pulsanti Anteriore/Posteriore e il nuovo riepilogo.
+
+IMPORTANTE
+- L'aggiornamento non cambia il nome del database locale: i dati della v1 sono mantenuti.
+- Backup e database locale rimangono comunque soggetti ai limiti di archiviazione delle PWA su iOS.
+- Potenza ed energia meccanica non vengono inventate dalla somma kg × ripetizioni.
+- Il controllo bidirezionale Apple Watch richiede in futuro una componente watchOS nativa.

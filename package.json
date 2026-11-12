@@ -1,0 +1,8 @@
+{
+  "name":"repz-pwa",
+  "version":"2.0.0",
+  "type":"module",
+  "private":true,
+  "description":"REPz, diario palestra PWA per iPhone. Nessuna dipendenza di runtime.",
+  "scripts":{"test":"node tests/smoke.mjs","serve":"python3 -m http.server 8765"}
+}
